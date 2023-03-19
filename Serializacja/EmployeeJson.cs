@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Serializacja
 {
     [Serializable]
-    internal class Employee
+    internal class EmployeeJson
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeJson.cs" />
+    <Compile Include="EmployeeXML.cs" />
+    <Compile Include="EmployeeSoap.cs" />
+    <Compile Include="SerializerXml.cs" />
+    <Compile Include="JsonSerializer1.cs" />
+    <Compile Include="SoapSerializer.cs" />
     <Compile Include="BinarySerializer.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />

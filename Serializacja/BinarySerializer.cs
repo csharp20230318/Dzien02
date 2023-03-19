@@ -17,7 +17,7 @@ namespace Serializacja
                 Id = 123,
                 FirstName = "Jan",
                 LastName = "Kowalski",
-                AccessRooms = new List<int>() { 2, 3, 4 },
+                //AccessRooms = new List<int>() { 2, 3, 4 },
                 IsManager = false,
                 StartAt = new DateTime(2022, 1,1)
             };
